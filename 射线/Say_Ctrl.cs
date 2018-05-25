@@ -18,7 +18,7 @@ public class Say_Ctrl : MonoBehaviour
     public static Say_Ctrl instance;
     private Ray ray;
     [HideInInspector]
-    public RaycastHit hit;
+    private RaycastHit hit;
     private new Camera camera;
     void Awake()
     {
